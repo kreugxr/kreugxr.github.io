@@ -42,7 +42,7 @@ body{
     text-align: center;
 }
 
-@media (min-width: 480px){
+@media (min-width: 700px){
     .main-content{
         text-align: justify;
         text-align-last: center;
