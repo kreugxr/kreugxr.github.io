@@ -27,7 +27,8 @@ body{
 }
 
 .main-content{
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     padding: 50px;
     font-size: 13pt;
 } span{
