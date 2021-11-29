@@ -27,10 +27,7 @@ body{
 }
 
 .main-content{
-    text-align: justify;
-    text-align-last: center;
-    word-spacing: -2px;
-    word-break: break-all;
+    text-align: center;
     padding: 50px;
     font-size: 13pt;
 } span{
