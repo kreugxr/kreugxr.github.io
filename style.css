@@ -41,10 +41,3 @@ body{
     width: 100%;
     text-align: center;
 }
-
-@media only screen and (min-width : 320px){
-    .main-content{
-        text-align: justify;
-        text-align-last: center;
-    }
-}
