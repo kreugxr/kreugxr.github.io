@@ -101,11 +101,11 @@ footer{
 @media screen and (max-width: 1500px) {
     .page_content{
         margin: 20px;
-        font-size: 11pt;
+        font-size: 9pt;
     }
 
     .contact-options{
         margin: 20px;
-        font-size: 11pt;
+        font-size: 9pt;
     }
 }
