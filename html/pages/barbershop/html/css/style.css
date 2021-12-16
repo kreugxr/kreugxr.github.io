@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Lusitana&display=swap');
+
+*{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;    
+}
+
+header{
+    overflow: hidden;
+    background-color: #0f0f0f;
+    background-image: url('./img/pexels-nick-demou-1319458.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: -webkit-center;
+ 
+}
+
+.page_header{
+    padding: 20px;
+}
+
+.page_header_title{font-family: 'Gwendolyn', cursive;}
+.div_links{text-align: center; font-weight: lighter; font-size: x-large;}
+
+
+.header_links_list{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+} 
+
+.header_links_list li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.header_links_item{
+    text-decoration: none;
+    color: whitesmoke;
+} .selected_item{color: #E48900;}
+
+.main_header{
+    text-align: center;
+    margin: 0px;
+    padding: 50px;
+    border-top: 1px solid #fff;
+    font-family: 'Lusitana', serif;
+    background-color: #0f0f0f;
+    background-image: none;
+}
+
+.main_header p::before{content: "-"; padding-right: 10px;}
+.main_header p::after{content: "-"; padding-left: 10px;}
+
+
+
+.page_content{
+    margin: 50px 500px 50px 500px;
+    text-align: justify;
+    font-family: 'Calibri', sans-serif;
+}
+
+.contact-options{
+    text-align: justify;
+    font-family: 'Calibri', sans-serif;
+    margin: 50px 500px 50px 500px;
+}
+
+.contact-options li{
+    list-style: circle;
+}
+
+
+.google_maps-location{
+    width: 100%;
+    height: 1;
+}
+
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 1;
+    width: 100%;
+    height: 1;
+    background-color: #0f0f0f;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.logo_footer{
+    width: 300px;
+    height: 300px;
+}
