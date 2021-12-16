@@ -99,6 +99,18 @@ footer{
 }
 
 @media screen and (max-width: 1500px) {
+        .page_content{
+        margin: 20px;
+        font-size: 12pt;
+    }
+
+    .contact-options{
+        margin: 20px;
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .page_content{
         margin: 20px;
         font-size: 9pt;
@@ -109,3 +121,4 @@ footer{
         font-size: 9pt;
     }
 }
+
