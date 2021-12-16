@@ -97,3 +97,13 @@ footer{
     width: 300px;
     height: 300px;
 }
+
+@media screen and (max-width: 1500px) {
+    .page_content{
+        margin: 20px;
+    }
+
+    .contact-options{
+        margin: 20px;
+    }
+}
