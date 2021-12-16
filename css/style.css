@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #212121;
+    color: rgb(240, 192, 250);
+    font-family: 'DM Sans', sans-serif;
+}
+
+#jheader{
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 16pt;
+} .title{
+    letter-spacing: 5px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.light-mode{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.main-content{
+    text-align: center;
+    padding: 50px;
+    font-size: 13pt;
+}
+
+.copyright-blablabla{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
