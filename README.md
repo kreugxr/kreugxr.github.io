@@ -1,7 +1,6 @@
-# kreugxr.github.io
-My personal website.
-
-https://kreugxr.github.io/
+# Hey there!
+Check out my website 👇 
+> https://kreugxr.github.io
 
 ### Other project I've made
 
