@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <title>Document</title>
+</head>
+<body onload="CreateUser()">
+    <header class="quiz_header">
+        <h1 class="quiz_header_title">QUIZ</h1>
+    </header>
+    <section class="quests">
+        <div class="quest_list">
+            <div class="item">
+                <p><b>1) </b>2 + 2 = ?</p>
+                <input type="radio" name="quest_01" id="answer" value="wrong"><label for="quest_1">6</label>
+                <input type="radio" name="quest_01" id="answer" value="wrong"><label for="quest_1">1</label>
+                <input type="radio" name="quest_01" id="answer" value="wrong"><label for="quest_1">5</label>
+                <input type="radio" name="quest_01" id="answer" value="correct"><label for="quest_1">4</label>
+            </div>
+        </div>
+        <div class="quest_list">
+            <div class="item">
+                <p><b>2) </b>5 + 3 = ?</p>
+                <input type="radio" name="quest_02" id="answer" value="wrong"><label for="quest_2">7</label>
+                <input type="radio" name="quest_02" id="answer" value="wrong"><label for="quest_2">5</label>
+                <input type="radio" name="quest_02" id="answer" value="correct"><label for="quest_2">8</label>
+                <input type="radio" name="quest_02" id="answer" value="wrong"><label for="quest_2">4</label>
+            </div>
+        </div>
+        <div class="quest_list">
+            <div class="item">
+                <p><b>3) </b>4 + 1 = ?</p>
+                <input type="radio" name="quest_03" id="answer" value="wrong"><label for="quest_3">2</label>
+                <input type="radio" name="quest_03" id="answer" value="wrong"><label for="quest_3">1</label>
+                <input type="radio" name="quest_03" id="answer" value="correct"><label for="quest_3">5</label>
+                <input type="radio" name="quest_03" id="answer" value="wrong"><label for="quest_3">3</label>
+            </div>
+        </div>
+        <div class="quest_submit_button">
+            <button id="submit_button" onclick="Submit()">Submit</button>
+        </div> 
+    </section>
+    <!--<script src="./js/script.js"></script>-->
+</body>
+</html>
