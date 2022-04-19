@@ -27,6 +27,39 @@ body{
     background-color: rgb(255, 200, 200);
 }
 
+/* *** SLIDESHOW *** */
+
+.slider{
+    overflow: hidden;
+}
+
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+.slider figure img{
+    float: left;
+    width: 20%;
+}
+
+@keyframes slider{
+    0% {left: 0;}
+    20% {left: 0;}
+    25% {left: -100%;}
+    45% {left: -100%;}
+    50% {left: -200%;}
+    70% {left: -200%;}
+    75% {left: -300%;}
+    95% {left: -300%;}
+    100% {left: -400%;}
+}
+
+/* *** ********* *** */
+
 .logo{
     height: 80px;
 }
@@ -302,7 +335,7 @@ footer{
 
     .container{
         display: flex;
-        margin: 0px;
+        margin: 20px 0 0 0px;
         width: 100%;
         flex-direction: column;
         align-items: center
@@ -314,8 +347,8 @@ footer{
         text-align: justify;
         width: 90%;
     }
-    
-        .child img{
+
+    .child img{
         width: 100%;
         height: 100%;
     }
