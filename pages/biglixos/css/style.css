@@ -306,7 +306,7 @@ footer{
         top: 80px;
         left: -100%;
         text-align: center;
-        transition: all .5s;
+        transition: all .2s;
     }
 
     .menu ul li{
