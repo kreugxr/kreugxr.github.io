@@ -314,6 +314,11 @@ footer{
         text-align: justify;
         width: 90%;
     }
+    
+        .child img{
+        width: 100%;
+        height: 100%;
+    }
 
     .container-contact{
         margin: 0;
