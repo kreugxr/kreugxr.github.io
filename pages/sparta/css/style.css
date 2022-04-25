@@ -73,8 +73,6 @@ label[for="mobile-menu_btn"]{
 
 .content-title{
     background-color: #0a0a0a;
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
     height: 500px;
 }
@@ -86,10 +84,10 @@ label[for="mobile-menu_btn"]{
     color: rgb(255, 255, 255);
 }
 
-.img-1{background-image: url('./images/banner-1.jpg') !important;}
-.img-2{background-image: url('./images/banner-2.jpg') !important;}
-.img-3{background-image: url('./images/banner-3.jpg') !important;}
-.img-4{background-image: url('./images/banner-4.jpg') !important;}
+.img-1{background-image: url('./images/banner-1.jpg') !important; background-size: cover; background-repeat: no-repeat;}
+.img-2{background-image: url('./images/banner-2.jpg') !important; background-size: cover; background-repeat: no-repeat;}
+.img-3{background-image: url('./images/banner-3.jpg') !important; background-size: cover; background-repeat: no-repeat;}
+.img-4{background-image: url('./images/banner-4.jpg') !important; background-size: cover; background-repeat: no-repeat;}
 
 
 .container-content{
