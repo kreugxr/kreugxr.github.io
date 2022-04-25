@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./css/images/favicon-32x32.png">
+    <script src="./js/contact.js"></script>
+    <title>Contact | Sparta</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <input type="checkbox" id="mobile-menu_btn">
+            <label for="mobile-menu_btn">&#9776;</label>
+            <a class="logo" href="index.html"><img src="./css/images/logo.svg" alt="Spartan GYM"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trust.html">Trust</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content-title">
+            <h1>Contact</h1>
+        </section>  
+        <div class="container-content">
+            <form class="contact-form">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" required name="firstname" placeholder="E.g., John">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" required name="lastname" placeholder="E.g., Doe">
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" required placeholder="Write your message." style="height:200px"></textarea>
+            
+                <input onclick="Send()" type="submit" id="btn" value="Submit">
+            </form>
+            <div class="container-warn" id="warn"></div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.877428911399!2d-118.257359684488!3d34.0470151254525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b502326eed%3A0x208aed638ad6ac5b!2s698-630%20Olive%2C%20Los%20Angeles%2C%20CA%2090014%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1650907702892!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>        
+    </main>
+
+    <footer>
+        <p>Sparta &copy; All rights reserved</p>
+    </footer>
+</body>
+</html>
