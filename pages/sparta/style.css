@@ -72,7 +72,6 @@ label[for="mobile-menu_btn"]{
 /* ------------------ PAGE CONTENT ---------------------- */
 
 .content-ad{
-    display: block !important;
     background-color: rgb(1, 0, 0);
     background-image: url('./images/pexels-victor-freitas-791763.jpg');
     background-size: cover;
@@ -80,6 +79,8 @@ label[for="mobile-menu_btn"]{
     width: 100%;
     height: 500px;
 }
+
+section.content-ad {display: block !important;}
 
 .content-ad h1{
     padding: 200px;
