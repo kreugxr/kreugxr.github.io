@@ -73,6 +73,8 @@ label[for="mobile-menu_btn"]{
 
 .content-title{
     background-color: #0a0a0a;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 500px;
 }
@@ -237,6 +239,12 @@ footer{
 
     #mobile-menu_btn:checked ~ ul{
         left: 0;
+    }
+
+    .content-title h1{
+        padding: unset;
+        line-height: 70vh;
+        font-size: 23pt;
     }
 
     @media (max-width: 653px) {
