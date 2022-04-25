@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon-32x32.png">
+    <script src="./js/contact.js"></script>
+    <title>Contact | Sparta</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <input type="checkbox" id="mobile-menu_btn">
+            <label for="mobile-menu_btn">&#9776;</label>
+            <a class="logo" href="index.html"><img src="./Images/logo.svg" alt="Spartan GYM"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trust.html">Trust</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content-ad">
+            <h1>Contact</h1>
+    </section>
+
+    <main>
+        <div class="container-content">
+            <form class="contact-form">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" required name="firstname" placeholder="E.g., John">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" required name="lastname" placeholder="E.g., Doe">
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" required placeholder="Write your message." style="height:200px"></textarea>
+            
+                <input onclick="Send()" type="submit" id="btn" value="Submit">
+            </form>
+            <div class="container-warn" id="warn"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Sparta &copy; All rights reserved</p>
+    </footer>
+</body>
+</html>
