@@ -191,6 +191,8 @@ footer{
 @media (max-width: 858px){
     label[for="mobile-menu_btn"]{
         display: block;
+        font-size: 40px;
+        line-height: 80px;
     }
 
     .menu{
