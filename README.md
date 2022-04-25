@@ -5,5 +5,6 @@ Check out my website 👇
 ### Other project I've made
 
 - Barbershop : https://kreugxr.github.io/pages/barbershop/
-- Vision: https://kreugxr.github.io/pages/vision
-- Plant a tree: https://kreugxr.github.io/pages/tree
+- Vision : https://kreugxr.github.io/pages/vision
+- Plant a tree : https://kreugxr.github.io/pages/tree
+- Sparta GYM : https://kreugxr.github.io/pages/sparta
