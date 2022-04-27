@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background-color: whitesmoke; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.menu{
+    height: 100px;
+    max-width: 1050px;
+    margin: 0 auto;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+}
+
+.menu ul{
+    float: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    line-height: 100px;
+    padding: 0 5px 0 5px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(227,13,44);
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.menu ul li a:hover{
+    transition: .3s;
+    border-radius: 8px;
+    background-color: rgb(219, 63, 86);
+    color: rgb(248,184,52);
+}
+
+.menu .logo img{
+    margin-top: 4px;
+    height: 95%;
+    padding: 0 5px 0 5px;
+}
+
+.on-page{
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+/* MOBILE MENU BUTTON */
+
+label[for="mobile-menu_button"]{
+    font-size: 0;
+    color: rgb(247, 110, 17);
+    float: right;
+    line-height: 80px;
+    margin-right: 5px;
+    cursor: pointer;
+    display: none;
+}
+#mobile-menu_button{display: none;}
+
+/************* CONTENT **************/
+
+.item{
+    background-color: #fff;
+    max-width: 1050px;
+    margin: 50px auto 50px auto;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.item h1{
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(227,13,44);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.info img{
+    width: 500px;
+}
+
+.info p{
+    text-align: justify;
+    padding: 25px;
+}
+
+/* aba de redirecionamento para a página de contato */
+
+.container-redirect_contact{
+    background-color: rgb(227,13,44);
+    color: white;
+    text-align: center;
+}
+
+.contact-link{color: rgb(255, 214, 187);}
+
+.container-redirect_contact div{
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.container-sponsors{
+    text-align: center;
+}
+
+.img-1{
+    width: 20%;
+}
+
+/************* FOOTER **************/
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 1;
+    width: 100%;
+    height: 1;
+}
+
+.footer-1{
+    display: flex;
+    background-color: rgb(227,13,44);
+    color: #fff;
+}
+
+.footer-1 div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    padding: 25px;
+}
+
+.footer-1 div ul li{list-style: none; ;}
+.footer-1 div ul li a{text-decoration: none; color: #fff;}
+
+.footer-links ul li{
+    margin: 15px 0 15px 0;
+}
+
+.footer-links ul li a:hover{
+    color: rgb(247, 110, 17);
+    transition: .3s;
+}
+
+.footer-2{
+    background-color: #000;
+    color: white;
+    font-size: 10pt;
+    text-align: center;
+    padding: 15px;
+}
+
+/************* RESPONSIVO **************/
+
+@media (max-width: 952px){
+    label[for="mobile-menu_button"]{
+        font-size: 30px;
+        padding: 0 15px 0 15px;
+    }
+}
+
+@media (max-width: 858px){
+    label[for="mobile-menu_button"]{
+        float: right;
+        line-height: 100px;
+        display: block;
+    }
+
+    .menu input{
+        display: none;
+    }
+
+    .logo{
+        height: 100px;
+    }
+
+    .menu{
+        margin: 0 auto;
+    }
+
+
+    .menu ul{
+        position: absolute;
+        width: 100%;
+        height: 0 auto;
+        background-color: whitesmoke;
+        border-bottom: 1px solid rgb(20, 30, 39);
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .2s;
+    }
+
+    .menu ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .menu ul li a{
+        font-size: 20px;
+    }
+
+    .menu ul li a:active, .menu ul li a:hover{
+        background: none;
+        color: rgb(0, 173, 181);
+    }
+
+    .on-page{
+        box-shadow: none;
+    }
+
+    #mobile-menu_button:checked ~ ul{
+        left: 0;
+    }
+
+    .item{
+        max-width: unset;
+    }
+
+    .info{
+        max-width: unset;
+        flex-direction: column;
+    }
+
+    .info img{
+        width: 100%;
+        padding: 0 100px 0 100px;
+    }
+
+    .img-1{
+        width: 50%;
+    }
+    
+    .img-2{
+        width: 100%;
+    }
+
+    .footer-1{
+        flex-direction: column;
+    }
+
+    .footer-1 div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: unset;
+        align-content: unset;
+        padding: 25px;
+    }
+
+    @media (max-width: 653px) {
+        .logo{
+            padding: 0;
+        }
+
+        .info img{
+            padding: unset;
+        }
+    }
+}
