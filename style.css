@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #111111;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: rgb(182, 0, 0);
+    font-family: 'Scheherazade New', serif;
+    padding: 20px;
+}
+
+p{
+    padding: 5px;
+    font-size: large;
+}
+
+a{
+    color: whitesmoke;
+    font-style: italic;
+}
