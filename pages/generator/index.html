@@ -16,13 +16,14 @@
 </head>
 <body>
     <h1><a href="../index.html" class="nav"><</a>1. Generator</a></h1>
+        <p class="about">This simple generator will greet you and tell you what year you were born based on your age.</p>
         <label for="name">Name</label><br>
-        <input type="text" name="name" required="required" id="name"><br>
+        <input type="text" name="name" class="formQ" id="name"><br>
 
         <label for="age">Age</label><br>
-        <input type="number" name="age" required="required" id="age"><br>
+        <input type="number" name="age" class="formQ" id="age"><br>
 
-        <input type="button" onclick="CreateForm()" value="Send">
+        <input type="button" class="btn" onclick="CreateForm()" value="Generate">
 
     <div id="response"></div>
 </body>
