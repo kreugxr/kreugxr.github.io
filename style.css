@@ -21,13 +21,49 @@ h1{
     padding: 20px;
 }
 
-p{
+.about{
+    padding: 0px 15px 30px 15px;
+}
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    outline: none;
+
+}
+
+.formQ{
+    width: 20%;
     padding: 5px;
-    font-size: large;
+    margin: 10px;
+}
+
+.btn{
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.btn:hover{
+    transition: 0.5s;
+    background-color: rgb(182, 0, 0); 
+    color: whitesmoke;
+}
+
+input:focus{
+    transition: 0.5s;
+    background-color: #ffe9e9;
+}
+
+div{
+    padding: 25px;
+    font-size: x-large;
 }
 
 a{
     color: whitesmoke;
+    font-size: 16pt;
 }
 
 a:hover{
@@ -35,10 +71,12 @@ a:hover{
     color: rgb(185, 55, 55);    
 }
 
-.userInfo{
-    font-style: italic;
+.nav{
+    margin: 0 15px 0 15px;
+    text-decoration: none;
 }
 
-div{
-    padding: 50px 0 50px 0;
+.nav:hover{
+    transition: 0.2s;
+    color: rgb(182, 0, 0);    
 }
