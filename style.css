@@ -8,6 +8,11 @@ body{
     background-color: #111111;
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 h1{
@@ -23,5 +28,17 @@ p{
 
 a{
     color: whitesmoke;
+}
+
+a:hover{
+    transition: 0.2s;
+    color: rgb(185, 55, 55);    
+}
+
+.userInfo{
     font-style: italic;
+}
+
+div{
+    padding: 50px 0 50px 0;
 }
