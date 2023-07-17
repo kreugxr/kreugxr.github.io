@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #111111;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h1{
+    color: rgb(182, 0, 0);
+    font-family: 'Scheherazade New', serif;
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    padding: 15px;
+}

@@ -1,0 +1,19 @@
+.nav{
+    margin: 0 15px 0 15px;
+    text-decoration: none;
+}
+
+.nav:hover{
+    transition: 0.2s;
+    color: rgb(182, 0, 0);    
+}
+
+a{
+    color: whitesmoke;
+    font-size: 16pt;
+}
+
+a:hover{
+    transition: 0.2s;
+    color: rgb(185, 55, 55);    
+}
