@@ -8,6 +8,11 @@ body{
     background-color: #111111;
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 h1{
@@ -33,4 +38,24 @@ input:focus{
 div{
     padding: 25px;
     font-size: x-large;
+}
+
+a{
+    color: whitesmoke;
+    font-size: 16pt;
+}
+
+a:hover{
+    transition: 0.2s;
+    color: rgb(185, 55, 55);    
+}
+
+.nav{
+    margin: 0 15px 0 15px;
+    text-decoration: none;
+}
+
+.nav:hover{
+    transition: 0.2s;
+    color: rgb(182, 0, 0);    
 }
